@@ -119,16 +119,13 @@ body {
 @media (max-width: 1100px) {
     .conteudo {
         flex-direction: column-reverse;
-        padding: 20%;
-
-<<<<<<< HEAD
+        padding: 10%;
+    } 
+    
     .conteudo__imagem-ajustada {
-        width: 100%;
-        height: auto;
-=======
-                
->>>>>>> parent of ae3c01a (acertando tamanho imagem mobile version)
+        width: auto;
     }
+
     .conteudo__caixa {
         width: auto;
     }
