@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --cor-primaria: #9AA6B2;
-    --cor-secundaria: #F8FAFC;
-    --cor-terciaria: #D9EAFD;
-    --cor-hover: #BCCCDC;
-    --font-primaria: "Rock Salt", cursive;
-    --font-secudaria: "Indie Flower", cursive;
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4DF;
+    --cor-hover: #272727;
+    --font-primaria: "Krona One", sans-serif;
+    --font-secudaria: "Montserrat", sans-serif;
 }
 
 * {
@@ -42,7 +42,7 @@ body {
 }
 
 .conteudo {
-    padding: 4% 20%;
+    padding: 8% 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
