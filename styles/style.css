@@ -44,7 +44,7 @@ body {
 .conteudo {
     padding: 8% 20%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 80px;
 }
@@ -57,7 +57,7 @@ body {
 }
 
 .conteudo__imagem-ajustada {
-    width: 50%;
+    width: 150%;
     height: auto;
 }
 
@@ -119,10 +119,14 @@ body {
 @media (max-width: 1100px) {
     .conteudo {
         flex-direction: column-reverse;
-        padding: 20%;
-
-                
+        padding: 20%;            
     }
+
+    .conteudo__imagem-ajustada {
+        width: 100%;
+        height: auto;
+    }
+
     .conteudo__caixa {
         width: auto;
     }
@@ -132,6 +136,5 @@ body {
     .cabecalho__menu {
         justify-content: center;
         gap: 5rem;
-        
     }
 }
