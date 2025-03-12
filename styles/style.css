@@ -21,12 +21,12 @@
 
 .cabecalho__menu {
     display: flex;
-    gap: 80px;
+    gap: 5rem;
 }
 
 .cabecalho__menu__links {
     font-family: var(--font-secudaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     color: var(--cor-terciaria);
@@ -49,26 +49,26 @@ body {
 }
 
 .conteudo__caixa {
-    width: 615px;
+    width: 38rem;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .conteudo__caixa__titulo {
     font-family: var(--font-primaria);
-    font-size: 32px;
+    font-size: 2.25rem;
 }
 
 .conteudo__caixa__texto {
     font-family: var(--font-secudaria);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .conteudo__links {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 1rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -77,17 +77,17 @@ body {
     display: flex;
     justify-content: center;
     border: 2px solid var(--cor-terciaria);
-    width: 378px;
+    width: 23.625rem;
     text-align: center;
-    border-radius: 8px;
-    padding: 16px 0px;
+    border-radius: 0.5rem;
+    padding: 1rem 0px;
     color: var(--cor-secundaria);
     font-family: var(--font-secudaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     text-decoration: none;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
 }
 
 .conteudo__links_botao:hover {
@@ -96,7 +96,7 @@ body {
 
 .conteudo__links__subtitulo {
     font-family: var(--font-primaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 }
 
@@ -104,9 +104,9 @@ body {
     background-color: var(--cor-terciaria);
     display: flex;
     justify-content: center;
-    padding: 24px;
+    padding: 1.5rem;
     font-family: var(--font-secudaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-primaria);
 
 }
