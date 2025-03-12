@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Rock+Salt&display=swap');
+
+:root {
+    --cor-primaria: #9AA6B2;
+    --cor-secundaria: #F8FAFC;
+    --cor-terciaria: #D9EAFD;
+    --cor-hover: #BCCCDC;
+    --font-primaria: "Rock Salt", cursive;
+    --font-secudaria: "Indie Flower", cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    padding: 1% 0 0 20%;
+
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__links {
+    font-family: var(--font-secudaria);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.title-highlight {
+    color: var(--cor-terciaria);
+}
+
+.conteudo {
+    padding: 4% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo__caixa {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.conteudo__caixa__titulo {
+    font-family: var(--font-primaria);
+    font-size: 32px;
+}
+
+.conteudo__caixa__texto {
+    font-family: var(--font-secudaria);
+    font-size: 24px;
+}
+
+.conteudo__links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteudo__links_botao {
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--cor-terciaria);
+    width: 378px;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px 0px;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secudaria);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    align-items: center;
+    gap: 16px;
+}
+
+.conteudo__links_botao:hover {
+    background-color: var(--cor-hover);
+}
+
+.conteudo__links__subtitulo {
+    font-family: var(--font-primaria);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.rodape {
+    background-color: var(--cor-terciaria);
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    font-family: var(--font-secudaria);
+    font-size: 24px;
+    color: var(--cor-primaria);
+
+}
