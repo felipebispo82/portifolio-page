@@ -46,13 +46,19 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 80px;
 }
 
 .conteudo__caixa {
-    width: 38rem;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+}
+
+.conteudo__imagem-ajustada {
+    width: 50%;
+    height: auto;
 }
 
 .conteudo__caixa__titulo {
@@ -77,7 +83,7 @@ body {
     display: flex;
     justify-content: center;
     border: 2px solid var(--cor-terciaria);
-    width: 23.625rem;
+    width: 62%;
     text-align: center;
     border-radius: 0.5rem;
     padding: 1rem 0px;
@@ -108,5 +114,24 @@ body {
     font-family: var(--font-secudaria);
     font-size: 1.5rem;
     color: var(--cor-primaria);
+}
 
+@media (max-width: 1100px) {
+    .conteudo {
+        flex-direction: column-reverse;
+        padding: 20%;
+
+                
+    }
+    .conteudo__caixa {
+        width: auto;
+    }
+    .cabecalho {
+        padding: 10% 0 0 0;
+    }
+    .cabecalho__menu {
+        justify-content: center;
+        gap: 5rem;
+        
+    }
 }
